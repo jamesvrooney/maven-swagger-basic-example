@@ -1,0 +1,7 @@
+services:
+  sensor-api:
+    build: .
+    image: library-backend:v1
+    container_name: jamesvrooney-library-app
+    ports:
+      - 8090:8080
